@@ -1,0 +1,15 @@
+[package]
+name = "verifier-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+risc0-groth16 = { git = "https://github.com/bob-collective/risc0.git", branch = "debug" }
+risc0-zkvm = { version = "1.1.2" }
+anyhow = "1.0.93"
+ark-bn254 = "0.4"
+ark-serialize = "0.4"
+ark-groth16 = "0.4"
+hex = "0.4.3"
+serde = "1.0"
+serde_json = "1.0.132"
